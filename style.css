@@ -1,0 +1,38 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #ccc;
+}
+.img {
+   width: 115%;
+   object-fit: contain;
+}
+.content {
+   margin: 200px 0 0 auto;
+   display: flex;
+   width: 1024px;
+   height: 500px;
+}
+.content .text {
+   flex-basis: 40%;
+   padding: 20px;
+   text-align: center;
+   background-color: white;
+}
+.content .text h2 {
+   color: aqua;
+   font-size: 30px;
+   padding-bottom: 20px;
+}
+.content .text p {
+   text-align: left;
+   line-height: 1.4;
+   margin-bottom: 20px;
+}
+.content .image {
+   flex-basis: 60%;
+   overflow: hidden;
+}
